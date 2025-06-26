@@ -91,7 +91,7 @@ public class Semana7_IntroPrograCasoEvaluado1 {
                     bono += (facturas[i].getMontoFactura()) * 0.05;
                     puntos += 1;
                 }
-                
+
             } else {
                 if (facturas[i].getCantidadElect() >= 3) {
                     bono += facturas[i].getMontoFactura() * 0.04;
@@ -123,12 +123,8 @@ public class Semana7_IntroPrograCasoEvaluado1 {
                 for (i = 0; i < cantidadFacturas; i++) {
                     totalFacturas += facturas[i].getMontoFactura();
                 }
-                
-            }
-            
-            for (i = 0; i < cantidadFacturas; i++) {
-                    totalFacturas += facturas[i].getMontoFactura();
-                }
+
+                        }   
             
             if (cantidadFacturas > 3 || totalFacturas > 300000) {
                 bono += 20000;
